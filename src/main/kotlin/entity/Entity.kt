@@ -1,6 +1,6 @@
 package entity
 
-import main.GamePanel
+import main.main.GamePanel
 import java.awt.Color.red
 import java.awt.Graphics2D
 import java.awt.Rectangle

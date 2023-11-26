@@ -1,6 +1,6 @@
 package entity
 
-import main.GamePanel
+import main.main.GamePanel
 import java.io.IOException
 import javax.imageio.ImageIO
 import kotlin.random.Random

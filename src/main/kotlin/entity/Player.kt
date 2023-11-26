@@ -1,7 +1,7 @@
 package entity
 
-import main.GamePanel
-import main.KeyHandler
+import main.main.GamePanel
+import main.main.KeyHandler
 import java.awt.Color
 import java.awt.Graphics2D
 import java.awt.Rectangle

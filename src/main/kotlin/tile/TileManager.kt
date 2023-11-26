@@ -1,7 +1,6 @@
 package tile
 
-import main.GamePanel
-import `object`.SuperObject
+import main.main.GamePanel
 import java.awt.Graphics2D
 import java.io.*
 import javax.imageio.ImageIO
