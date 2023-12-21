@@ -170,7 +170,7 @@ class Player(override var gamePanel: GamePanel, private var keyHandler: KeyHandl
     fun pickUpObject(i: Int) {
 
         if (i != 999) {
-
+            
         }
     }
 
