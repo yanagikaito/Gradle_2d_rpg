@@ -70,7 +70,7 @@ class GamePanel internal constructor() : JPanel(), Runnable {
 
     private val objects: Array<SuperObject> = Array(10) { SuperObject() }
 
-    private val npc: Array<Entity?> = arrayOfNulls(10)
+    private val npc: Array<Entity?> = Array(10) { Entity(this) }
 
     private val fps = 60
 
@@ -211,7 +211,7 @@ class GamePanel internal constructor() : JPanel(), Runnable {
         // OBJECT
         for (i in objects.indices) {
             if (objects[i] != null) {
-                objects[i]?.objectDraw(graphics2D, this)
+                objects[i].objectDraw(graphics2D, this)
             }
         }
 
